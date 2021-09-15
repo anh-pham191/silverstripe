@@ -1,0 +1,118 @@
+.main .inner {
+	background-color: black;
+	color:  #ffffff;
+}
+
+.typography p {
+	color:  #ffffff;
+}
+
+.blog-image-block {
+	margin: 40px auto !important;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.blog-image-block img.fleft {
+    margin-right: 4%;
+}
+.fleft {
+    float: left;
+}
+.blog-image-block .fleft, .blog-image-block .fright {
+    width: 48%;
+    height: auto;
+    object-fit: cover;
+}
+
+.blog-image-block div.fleft {
+    width: 48%;
+    position: relative;
+}
+
+.blog-image-block img.fleft ~ .fleft .content-box {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.blog-image-block .content-box {
+    padding-top: 20px;
+}
+
+.blog-image-block .content-box .title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 5px;
+}
+
+.blog-image-block .content-box .content {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.63;
+}
+
+p {
+    font-family: Montserrat,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    line-height: 1.63;
+}
+
+.blog-image-block .content-box a.btn {
+    width: 250px;
+}
+
+.blog-image-block .content-box a.btn {
+    width: 200px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.63;
+    cursor: pointer;
+}
+
+.btn-block {
+    display: block;
+    font-weight: 700;
+}
+
+.blog-image-block img.fright {
+    margin-left: auto;
+    order: 2;
+}
+
+.blog-image-block img.fleft, .blog-image-block img.fright {
+    width: 48%;
+    height: auto;
+    object-fit: cover;
+}
+
+.fright {
+    float: right;
+}
+
+.content-holder form {
+	width:  100%;
+	margin-left:  10%;
+}
+
+#ContactForm_ContactForm_Name_Holder, #ContactForm_ContactForm_Email_Holder {
+	width:  40%;
+	float:  left;
+}
+
+#ContactForm_ContactForm_Email_Holder {
+	margin-left:  5%;
+	margin-right:  5%;
+}
+
+form .good {
+    color:  #333333;
+}
+.blog-image-block .content-box .btn-primary, #ContactForm_ContactForm_action_submit {
+	border:  1px solid #ffffff;
+	background-color:  black;
+}
